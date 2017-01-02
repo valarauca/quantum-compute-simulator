@@ -1,8 +1,9 @@
 [root]
-name = "quantumcompiler"
+name = "Quantum-Compute-Simulator"
 version = "0.1.0"
 dependencies = [
  "nom 2.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "seahash 3.0.5 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -10,5 +11,11 @@ name = "nom"
 version = "2.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
+[[package]]
+name = "seahash"
+version = "3.0.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
 [metadata]
 "checksum nom 2.0.0 (registry+https://github.com/rust-lang/crates.io-index)" = "628d6ee18ab0ca1c1feb3331caa6ad2e53f6053b2505662b90d194889bbcd571"
+"checksum seahash 3.0.5 (registry+https://github.com/rust-lang/crates.io-index)" = "e048636bed25842fcdc36e5ad1ec6295b72d4b5b8a4b759b64915a4ce2b9d09d"
